@@ -1,0 +1,23 @@
+{
+	"name": "projekt",
+	"version": "1.0.0",
+	"description": "",
+	"main": "main.js",
+	"scripts": {
+		"sass": "sass --watch ./sass/main.scss:./css/style.css"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+ssh://git@github.com/Platimo/trole.git"
+	},
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/Platimo/trole/issues"
+	},
+	"homepage": "https://github.com/Platimo/trole#readme",
+	"dependencies": {
+		"node-sass": "^9.0.0",
+		"sass": "^1.69.5"
+	}
+}
