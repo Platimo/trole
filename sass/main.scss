@@ -65,6 +65,66 @@ nav {
 }
 // linia 
 
+
+// obrazki + js 
+.lewo {
+    left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    color: cyan;
+}
+.prawo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    color: cyan;
+}
+
+.slajd {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1300px;
+    height: 400px;
+    background-image: url(../img/photos/slide_01.jpg);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+// .slide2 {
+//     display: flex;
+//     justify-content: center;
+//     width: 1300px;
+//     height: 400px;
+//     background-image: url(../img/photos/slide_02.png);
+// }
+
+
+
+
+
+
+
+
+
+
+
 // main 
 
 .main-text {
@@ -166,7 +226,7 @@ nav {
     
 
 .about-us {
-    background-image: url(../img/photos/img_07.jpg);
+    background-image: url(../img/photos/whyUsBanner.png);
     background-size: cover;
     text-align: center;
     color: #ffffff;
@@ -287,5 +347,13 @@ nav {
 }
 .img3:hover {
     transform: scale(1.20);
+    transition: 0.3s;
+}
+.lewo:hover {
+    background-color: grey;
+    transition: 0.3s;
+}
+.prawo:hover {
+    background-color: grey;
     transition: 0.3s;
 }
