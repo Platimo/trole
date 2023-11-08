@@ -82,7 +82,7 @@ nav {
   background-image: url(../img/photos/img_07.jpg);
   background-size: cover;
   text-align: center;
-  color: #000000;
+  color: #ffffff;
 }
 
 .dilivery {
@@ -91,7 +91,7 @@ nav {
   text-transform: uppercase;
   margin: 3vh;
   font-weight: bold;
-  border: 1px solid #000000;
+  border: 1px solid #ffffff;
   opacity: 1;
 }
 
@@ -107,6 +107,10 @@ nav {
 }
 
 .bg-grey {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
   top: 2652px;
   left: 0px;
   width: 100% vh;
@@ -115,34 +119,23 @@ nav {
   opacity: 1;
 }
 
-.box-informacje {
-  top: 2690px;
-  left: 29px;
-  width: 25% vh;
-  height: 25% vh;
-  color: #ffffff;
-}
-
 .informacje {
+  color: #ffffff;
+  text-decoration: none;
   text-transform: uppercase;
   font-weight: bold;
 }
 
-.linki {
-  text-decoration: none;
-  color: #ffffff;
-  text-transform: none;
+.line {
+  width: 250px;
+  height: 1px;
+  background: linear-gradient(90deg, red 0 10%, rgb(121, 120, 120) 0 90%);
 }
 
-.box-informacje-2 {
-  position: absolute;
-  display: flexbox;
-  justify-content: space-between;
-  top: 2690px;
-  left: 29px;
-  width: 25vh;
-  height: 2vh;
-  color: #ffffff;
+.items {
+  font-size: 10px;
+  text-transform: none;
+  font-weight: lighter;
 }
 
 .left {
