@@ -65,6 +65,8 @@ nav {
 }
 // linia 
 
+// main 
+
 
 
 
@@ -99,7 +101,7 @@ height: 153px;
     
 
 .about-us {
-    background-image: url(../img/photos/img_02.jpg);
+    background-image: url(../img/photos/img_07.jpg);
     background-size: cover;
     text-align: center;
     color: #000000;
@@ -157,11 +159,13 @@ height: 153px;
 }
 
 .box-informacje-2 {
+    position: absolute;
+    display:flexbox;
     justify-content: space-between;
     top: 2690px;
     left: 29px;
-    width: 25%;
-    height: 25%;
+    width: 25vh;
+    height: 2vh;
     color: #ffffff;
 }
 
