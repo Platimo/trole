@@ -156,6 +156,10 @@ nav {
   margin-left: 40px;
 }
 
+.recommended_text {
+  text-align: center;
+}
+
 .about-us-2 {
   position: relative;
   flex-direction: row;
