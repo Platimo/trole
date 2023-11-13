@@ -225,11 +225,12 @@ nav {
 .cart {
   display: none;
   text-align: right;
-  transform: translate(-50px, -50px);
+  transform: translate(-10px, -50px);
 }
 
 .many {
-  transform: translate(-20px);
+  display: none;
+  transform: translate(-17px, -98px);
 }
 
 .about-us-2 {
@@ -397,6 +398,9 @@ nav {
   transform: translate(0px, -40px);
 }
 .bulb1:hover .cart {
+  display: block;
+}
+.bulb1:hover .many {
   display: block;
 }
 
