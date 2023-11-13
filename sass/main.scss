@@ -274,11 +274,11 @@ nav {
 .cart {
     display: none;
     text-align: right;
-    transform: translate(-50px,-50px);
+    transform: translate(-10px,-50px);
 }
 .many {
-    // display: none;
-    transform: translate(-20px, );
+    display: none;
+    transform: translate(-17px,-98px);
 }
 
 
@@ -465,6 +465,9 @@ nav {
         transform: translate(0px,-40px);
     }
     .cart {
+        display: block;
+    }
+    .many {
         display: block;
     }
 }
