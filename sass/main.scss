@@ -200,6 +200,29 @@ nav {
     text-align: center;
 }
 
+.bgc {
+    background-color: #fff;
+}
+
+
+.bulb1 {
+    height: 205px;
+    width: 100px;
+    background-size: cover;
+    background-position: center;
+    background-image: url(../img/photos/img_06.jpg);
+}
+.blub-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+
+
+   
+
 
 
 
