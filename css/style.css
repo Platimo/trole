@@ -83,7 +83,6 @@ nav {
   align-items: center;
   width: 100vhpx;
   height: 400px;
-  background-image: url(../img/photos/slide_01.jpg);
 }
 
 .main-text {
@@ -160,16 +159,46 @@ nav {
   text-align: center;
 }
 
-.bgc {
-  background-color: #fff;
+.bulb1 {
+  height: 300px;
+  width: 400px;
+  background-color: #ffffff;
 }
 
-.bulb1 {
-  height: 205px;
+.pic {
+  height: 180px;
   width: 100px;
   background-size: cover;
   background-position: center;
+  margin-left: 65px;
   background-image: url(../img/photos/img_06.jpg);
+}
+
+.product-name {
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 11px;
+}
+
+.product-disc {
+  text-align: center;
+  font-size: 9px;
+  color: #000000;
+  font-weight: bold;
+}
+
+.price-bf {
+  text-align: center;
+  font-size: 10px;
+  color: rgba(0, 0, 0, 0.5333333333);
+  text-decoration: line-through;
+}
+
+.price-after {
+  text-align: center;
+  font-size: 12px;
+  font-weight: bold;
 }
 
 .blub-box {
