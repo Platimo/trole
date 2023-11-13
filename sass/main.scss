@@ -10,6 +10,7 @@ html {
 
 body {
     font-family: 'Raleway', sans-serif;
+    background-color: #f5eeee;
 }
 // navigacja navi   
 .nav-items {
@@ -91,7 +92,7 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 1300px;
+    width: 100vhpx;
     height: 400px;
     background-image: url(../img/photos/slide_01.jpg);
 }
@@ -194,8 +195,10 @@ nav {
 }
 
 
-
-
+// produkty
+.recommended_text {
+    text-align: center;
+}
 
 
 
