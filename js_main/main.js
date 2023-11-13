@@ -1,17 +1,15 @@
-const zdjecie = document.getElementById(zdjecie)
-const noweZdjecieUrl = document.getElementById(noweZdjecieUrl)
-const lewo = document.getElementById('ArrowLeft')
-const prawo = document.getElementById('ArrowRight')
+var slajd = document.querySelector('.slajd');
+var img = ['slide_01.jpg', 'slide_02.jpg'];
+var i = 0
 
-document.addEventListener('ArrowRight', function (event) {
-    if (event.key === 'ArrowRight') {
-      // Zniknij w prawo
-      zdjecie.style.transform = 'translateX(100%)';
+function prev(){
+    if(i <= 0 ) i = img.length
+    i--;
+    return setImg();
+}
 
-      // Po chwili zmień zdjęcie i pojawi się nowe
-      setTimeout(function () {
-        zdjecie2 = noweZdjecieUrl;
-        zdjecie2.style.transform = 'translateX(0)';
-      }, 500); // Czas trwania animacji w milisekundach
-    }
-  });
+function next(){
+}
+function setImg() {
+    return slajd.setAttribute('src', 'img/' + img[i]);
+}
