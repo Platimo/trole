@@ -270,7 +270,15 @@ nav {
     padding: 10px;
     border: none;
     border-radius: 25px;
-
+}
+.cart {
+    display: none;
+    text-align: right;
+    transform: translate(-50px,-50px);
+}
+.many {
+    // display: none;
+    transform: translate(-20px, );
 }
 
 
@@ -448,4 +456,15 @@ nav {
     background-color: #000000;
     transition: 0.5s;
     color: #ffffff;
+}
+
+
+
+.bulb1:hover {
+    .animation-up {
+        transform: translate(0px,-40px);
+    }
+    .cart {
+        display: block;
+    }
 }

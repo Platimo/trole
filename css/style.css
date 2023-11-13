@@ -222,6 +222,16 @@ nav {
   border-radius: 25px;
 }
 
+.cart {
+  display: none;
+  text-align: right;
+  transform: translate(-50px, -50px);
+}
+
+.many {
+  transform: translate(-20px);
+}
+
 .about-us-2 {
   position: relative;
   flex-direction: row;
@@ -381,6 +391,13 @@ nav {
   background-color: #000000;
   transition: 0.5s;
   color: #ffffff;
+}
+
+.bulb1:hover .animation-up {
+  transform: translate(0px, -40px);
+}
+.bulb1:hover .cart {
+  display: block;
 }
 
 /*# sourceMappingURL=style.css.map */
