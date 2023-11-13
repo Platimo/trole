@@ -178,6 +178,21 @@ nav {
   justify-content: space-around;
 }
 
+.zobacz-btn {
+  text-align: center;
+}
+
+.see-more-btn {
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+  background-color: tomato;
+  color: #ffffff;
+  padding: 10px;
+  border: none;
+  border-radius: 25px;
+}
+
 .about-us-2 {
   position: relative;
   flex-direction: row;
@@ -293,11 +308,13 @@ nav {
 }
 
 .dilivery:hover {
+  cursor: pointer;
   transform: scale(1.3);
   transition: 0.3s;
 }
 
 .btn-see-more:hover {
+  cursor: pointer;
   background-color: rgb(255, 38, 0);
   border-color: rgb(255, 38, 0);
   transition: 0.5s;
@@ -319,13 +336,22 @@ nav {
 }
 
 .lewo:hover {
+  cursor: pointer;
   background-color: grey;
   transition: 0.3s;
 }
 
 .prawo:hover {
+  cursor: pointer;
   background-color: grey;
   transition: 0.3s;
+}
+
+.see-more-btn:hover {
+  cursor: pointer;
+  background-color: #000000;
+  transition: 0.5s;
+  color: #ffffff;
 }
 
 /*# sourceMappingURL=style.css.map */
