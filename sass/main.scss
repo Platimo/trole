@@ -69,12 +69,12 @@ nav {
 
 // obrazki + js 
 .lewo {
-    left: 10px;
+    left: 29px;
     display: flex;
     justify-content: center;
     align-items: center;
     position: absolute;
-    top: 50%;
+    top: 58%;
     color: cyan;
 }
 .prawo {
@@ -82,8 +82,8 @@ nav {
     justify-content: center;
     align-items: center;
     position: absolute;
-    top: 50%;
-    right: 10px;
+    top: 58%;
+    right: 29px;
     color: cyan;
 }
 
@@ -96,12 +96,13 @@ nav {
     height: 400px;
     // background-image: url(../img/photos/slide_01.jpg);
 }
-// .slide2 {
-//     position: relative;
-//     display: flex;
-//     justify-content: center;
-//     width: 1300px;
-//     height: 400px;
+.slide2 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 1300px;
+    height: 400px;
+}
 //     background-image; url(../img/photos/slide_02.png);
 //     img
 // }
@@ -472,5 +473,3 @@ nav {
         display: block;
     }
 }
-
-

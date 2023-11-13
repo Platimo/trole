@@ -32,22 +32,15 @@
             <hr style="width: 100%;">
        
             <section>
-                <div class="slajd">
-                    <img class="slajd" id="zdjecie" src="./img/photos/slide_01.jpg" alt="zdjecie">
-                    <div class="lewo"><button class="lewo1" onclick="prev()" ><i class="fa-solid fa-chevron-left"></i></button></div>
-                    <div class="prawo"><button class="prawo1" onclick="next()"><i class="fa-solid fa-chevron-right"></i></button></div>
+                <div class="slajd-bg">
+                    <img class="slajd" id="zdjecie" src="./img/photos/slide_01.jpg">
+                    <img class="slajd" id="zdjecie" src="./img/photos/slide_02.png">
+                    <div class="lewo" onclick="side_slide(1)"><button class="lewo1"><i class="fa-solid fa-chevron-left"></i></button></div>
+                    <div class="prawo" onclick="side_slide(-1)"><button class="prawo1"><i class="fa-solid fa-chevron-right"></i></button></div>
                 </div>
-                
-                
-                
-                <div class="slide2"></div>
-                <!-- <img class="slajd2" id="noweZdjecieUrl" src="./img/photos/slide_02.png" alt="zdjecie2"> -->
-                
-
-
             </section>
        
-       
+            <hr style="width: 100%;">
        
         <main class="main-text">
             
@@ -217,6 +210,8 @@
                 <p class="left">Copyriht 2022. Wszystkie prawa zastrzeżone</p>
                 <p class="right">Agencja internetowa [ti] Powered by 2ClickSop...cover by Nikodem, Szymon, Olaf</p>
             </footer>
+
+            
 
             <script src="./js_main/main.js"></script>
 
