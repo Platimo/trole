@@ -462,6 +462,7 @@ nav {
 
 .bulb1:hover {
     .animation-up {
+        transition: 0.5s;
         transform: translate(0px,-40px);
     }
     .cart {
