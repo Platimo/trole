@@ -242,6 +242,22 @@ nav {
   background-image: url(../img/photos/img_04.jpg);
 }
 
+.right-arrow {
+  position: absolute;
+  top: 1120px;
+  left: 1290px;
+  border: none;
+  cursor: pointer;
+}
+
+.left-arrow {
+  position: absolute;
+  top: 1120px;
+  left: 48px;
+  border: none;
+  cursor: pointer;
+}
+
 .one ~ h1 {
   font-weight: bold;
   margin-top: 40px;
@@ -537,6 +553,14 @@ nav {
 .right1:hover {
   transition: 0.3s;
   background-color: rgba(255, 255, 255, 0.582);
+}
+
+.right-arrow:hover {
+  background-color: #8a8a8a;
+}
+
+.left-arrow:hover {
+  background-color: #8a8a8a;
 }
 
 /*# sourceMappingURL=style.css.map */
