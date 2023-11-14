@@ -13,7 +13,7 @@
     <body>
         <hr style="width: 100%;">
         <nav>
-            <div class="logo"><img src="./img/photos/logo.png" </div>
+            <div class="logo-up"></div>
             <p class="wrapper nav-items"><i class="fa-solid fa-cart-shopping"></i><button class="btn-color">Mój koszyk</button></p>
             <p class="wrapper nav-items"><i class="fa-regular fa-user"></i><button class="btn-color">Produkty</button></p>
             <p class="wrapper nav-items"><i class="fa-regular fa-star"></i><button class="btn-color">ulubione</button></p>
@@ -33,10 +33,20 @@
        
             <section>
                 <div class="slajd-bg">
-                    <img class="slajd" id="zdjecie" src="./img/photos/slide_01.jpg">
-                    <img class="slajd" id="zdjecie" src="./img/photos/slide_02.png">
-                    <div class="lewo" onclick="side_slide(1)"><button class="lewo1"><i class="fa-solid fa-chevron-left"></i></button></div>
-                    <div class="prawo" onclick="side_slide(-1)"><button class="prawo1"><i class="fa-solid fa-chevron-right"></i></button></div>
+                    <div class="sedan"><img class="slajd" id="zdjecie" src="./img/photos/slide_01.jpg">
+                        <p class="nagl-s">Poznajcie SEDNA</p>
+                        <p class="nagl2-s">Schneider Electric</p>
+                        <p class="slide-dsc">Sedna to osprzęt elektrointalacyjny <br> o wyrazistym ksztaucie oraze <br> unikalnej formie.</p>
+                        <button class="see-more-up-s">zobacz więcej</button>
+                    </div>
+                    <div class="Philips"><img class="slajd" id="zdjecie" src="./img/photos/slide_02.png">
+                        <p class="nagl">Philips HUE</p>
+                        <p class="nagl2">Oświetl swój dom</p>
+                        <p class="slide-dsc">Wyobraź sobie, że jednym<br> dotknięciem wyłączasz<br> wszystkie światła.</p>
+                        <button class="see-more-up">zobacz więcej</button>
+                    </div>
+                    <div class="lewo" onclick="side_slide(-1)"><button class="lewo1"><i class="fa-solid fa-chevron-left"></i></button></div>
+                    <div class="prawo" onclick="side_slide(1)"><button class="prawo1"><i class="fa-solid fa-chevron-right"></i></button></div>
                 </div>
             </section>
        
@@ -44,17 +54,17 @@
        
         <main class="main-text">
             
-            <div class="img1">
+            <div class="img-1">
                 <h1 class="one align">Pomoc eksperta</h1>
                 <p class="one align"><h3>Doradzamy</h3></p>
                 <button class="btn-see-more align">zobacz więcej</button>
             </div>
-            <div class="img2">
+            <div class="img-2">
                 <h1 class="one align">Szukaj więcej</h1>
                 <p class="on aligne"><h3>Elhurt plus</h3></p>
                 <button class="btn-see-more align">zobacz więcej</button>
             </div>
-            <div class="img3">
+            <div class="img-3">
                 <h1 class="one align">Seria Unica</h1>
                 <p class="one align"><h3>Wyjątkowy wzór</h3></p>
                 <button class="btn-see-more align">zobacz więcej</button>
@@ -213,9 +223,9 @@
 
             
 
-            <script src="./js_main/main.js"></script>
-
+            
         </body>
+        <script src="./js_main/main.js"></script>
     </html>
 
             
