@@ -414,7 +414,7 @@ nav {
   text-transform: uppercase;
   font-weight: bold;
 }
- 
+
 .line {
   width: 250px;
   height: 1px;
@@ -471,17 +471,17 @@ nav {
   transition: 0.5s;
 }
 
-.img1:hover {
+.img-1:hover {
   transform: scale(1.2);
   transition: 0.3s;
 }
 
-.img2:hover {
+.img-2:hover {
   transform: scale(1.2);
   transition: 0.3s;
 }
 
-.img3:hover {
+.img-3:hover {
   transform: scale(1.2);
   transition: 0.3s;
 }
