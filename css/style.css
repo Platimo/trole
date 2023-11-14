@@ -63,7 +63,7 @@ nav {
   background-color: #fff;
 }
 
-.lewo {
+.left-1 {
   left: 50px;
   display: flex;
   justify-content: center;
@@ -73,7 +73,7 @@ nav {
   color: cyan;
 }
 
-.prawo {
+.right-1 {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -181,6 +181,19 @@ nav {
   font-weight: bold;
   background-color: rgb(255, 0, 0);
   color: #f5eeee;
+}
+
+.left1 {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.right1 {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
 }
 
 .main-text {
@@ -513,6 +526,16 @@ nav {
   cursor: pointer;
   background-color: black;
   transition: 0.5s;
+}
+
+.left1:hover {
+  transition: 0.3s;
+  background-color: rgba(255, 255, 255, 0.582);
+}
+
+.right1:hover {
+  transition: 0.3s;
+  background-color: rgba(255, 255, 255, 0.582);
 }
 
 /*# sourceMappingURL=style.css.map */

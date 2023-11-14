@@ -1,4 +1,4 @@
-var indexValue = 1;
+var indexValue = -1;
 showImg(indexValue);
 function side_slide(e){showImg(indexValue += e);}
 function showImg(e){
