@@ -231,6 +231,15 @@ nav {
         height: 290px;
         background-image: url(../img/photos/slide_small.png);
     }
+    .philips-mobile {
+        position: relative;
+        text-align: left;
+        background-position: center;
+        background-size: cover;
+        width: 600px;
+        height: 300px;
+        background-image: url(../img/photos/slide_small2.jpg);
+    }
     .right-1 {
         top: 120px;
         right: 30px;
@@ -240,16 +249,14 @@ nav {
     }
     
 }
-.philips-mobile {
-    position: relative;
-    text-align: left;
-    background-position: center;
-    background-size: cover;
-    width: 600px;
-    height: 300px;
-    background-image: url(../img/photos/slide_small2.jpg);
-
+@media (max-width: 768px) {
+    .sedan-mobile {
+        display: none;
+    }
 }
+
+
+
 
 
 
