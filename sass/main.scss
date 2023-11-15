@@ -23,11 +23,11 @@ nav {
 
 }
 
-.wrapper {
-    margin: 0 auto;
-    width: 100%;
-    max-width: 1200px;
-}
+// .wrapper {
+//     margin: 0 auto;
+//     width: 100%;
+//     max-width: 1200px;
+// }
 
 .burger-icon {
     display: block;
@@ -46,6 +46,7 @@ nav {
     }
     
 }
+
 
 
 .logo-up {
@@ -93,13 +94,17 @@ nav {
 
 
 // obrazki + js 
+.slajd-bg {
+    position: relative;
+}
+
 .left-1 {
-    left: 50px;
+    left: 3px;
     display: flex;
     justify-content: center;
     align-items: center;
     position: absolute;
-    top: 58%;
+    top: 50%;
     color: cyan;
 }
 .right-1 {
@@ -107,8 +112,8 @@ nav {
     justify-content: center;
     align-items: center;
     position: absolute;
-    top: 58%;
-    right: 29px;
+    top: 50%;
+    right: 3px;
     color: cyan;
 }
 .slajd {
@@ -116,7 +121,6 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100vhpx;
     height: 400px;
    }
 .slide2 {
@@ -209,8 +213,44 @@ nav {
     background: none;
     border: none;
     cursor: pointer;
-    font-weight: bold;
 }
+
+@media (max-width: 768px) {
+    .sedan {
+        display: none;
+    }
+    .Philips {
+        display: none;
+    }
+    .sedan-mobile {
+        position: absolute;
+        text-align: left;
+        background-position: center;
+        background-size: cover;
+        width: 600px;
+        height: 290px;
+        background-image: url(../img/photos/slide_small.png);
+    }
+    .right-1 {
+        top: 120px;
+        right: 30px;
+    }
+    .left-1 {
+        top: 120px;
+    }
+    
+}
+.philips-mobile {
+    position: relative;
+    text-align: left;
+    background-position: center;
+    background-size: cover;
+    width: 600px;
+    height: 300px;
+    background-image: url(../img/photos/slide_small2.jpg);
+
+}
+
 
 
 // main 
@@ -257,6 +297,8 @@ nav {
     font-weight: bold;
     background-image: url(../img/photos/img_04.jpg);
 }
+
+
 .right-arrow {
     position: absolute;
     top: 1120px;
