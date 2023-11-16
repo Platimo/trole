@@ -1,0 +1,54 @@
+.bg-grey {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    top: 2652px;
+    left: 0px;
+    width: 100%vh;
+    height: 100%vh;
+    background: #393E40 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.informacje {
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.line {
+    width: 250px;
+    height: 1px;
+    background: linear-gradient(90deg, red 0 10%, rgb(121, 120, 120) 0 90%);
+}
+.items {
+    font-size: 10px;
+    text-transform: none;
+    font-weight: lighter;
+    text-decoration: none;
+    color: #ffffff;
+}
+.link-1 {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+
+
+// .linki-2 {
+
+// }
+// .info2 {
+
+// }
+
+
+// footer 
+.left {
+    text-align: left;
+    opacity: 0.5;
+}
+.right {
+    text-align: right;
+    opacity: 0.5;
+}

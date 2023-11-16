@@ -1,0 +1,51 @@
+.about-us-2 {
+    position: relative;
+    flex-direction: row;
+    text-transform: uppercase;
+    margin: 3vh;
+    font-weight: bold;
+    padding: 70px;
+}
+
+.dilivery {
+    top: 2340px;
+    left: 465px;
+    width: 310px;
+    height: 153px;
+}
+.accesories {
+    top: 2340px;
+    left: 805px;
+    width: 310px;
+    height: 153px;
+}
+    
+    
+
+.about-us {
+    background-image: url(../img/photos/whyUsBanner.png);
+    background-size: cover;
+    text-align: center;
+    color: #ffffff;
+    }
+
+.dilivery{
+    text-align: center;
+    flex-direction: row;
+    text-transform: uppercase;
+    margin: 3vh;
+    font-weight: bold;
+    border: 1px solid #ffffff;
+    opacity: 1;
+}
+
+.info {
+    padding: 20px;
+    border-radius: 25px;
+    background-color: red;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: none;
+    color: white;
+}

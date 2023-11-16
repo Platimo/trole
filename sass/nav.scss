@@ -1,0 +1,89 @@
+* {
+    box-sizing: border-box;
+    margin: 10px;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    background-color: #f5eeee;
+    text-decoration: none;
+}
+
+
+nav {
+    position: relative;
+    top: 0;
+    height: -60px;
+    line-height: -60px;
+    background-color: #f5eeee;
+}
+.burger-icon {
+    display: block;
+    margin-right: auto;
+    padding: 0 30px;
+    line-height: 60px;
+    font-size: 30px;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+@media (min-width: 768px) {
+    .burger-icon {
+        display: none;
+    }
+    
+}
+
+
+
+.logo-up {
+    position: absolute;
+    width: 250px;
+    height: 59px;
+    background-image: url(../img/photos/logo.png);
+}
+
+// navigacja navi   
+.nav-items {
+    position: relative;
+    color: #000000;
+    text-align: right;
+    flex-direction: row-reverse;
+    float: right;
+    text-transform: uppercase;
+    margin: 3vh;
+    font-weight: bold;
+}
+/* nawigacja */
+.btn-color{
+    border: 0;
+    background-color: #f5eeee;
+}
+// sekcja 2 zakłądek 
+.function {
+    position: sticky;
+    display: flex;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    }
+.btn-2 {
+    position: sticky;
+    display: flex;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: 0;
+    background-color: #f5eeee;
+}
+.link-b {
+    text-decoration: none;
+    color: black;
+}
+
