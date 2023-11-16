@@ -1,0 +1,21 @@
+@use './nav.scss';
+@use './discription.scss';
+@use './hover.scss';
+
+.grey-line {
+    display: flex;
+    flex-direction: row;
+    background-color: #cfcdcd;
+}
+.categories {
+    position: relative;
+    display: flex;
+    font-size: 14px;
+    flex-direction: row;
+    justify-content: space-between;
+    color: rgba(0, 0, 0, 0.692)
+}
+.slowa  {
+    position: relative;
+}
+

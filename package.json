@@ -4,7 +4,7 @@
 	"description": "",
 	"main": "main.js",
 	"scripts": {
-		"sass": "sass --watch ./sass/main.scss:./css/style.css ./sass/kontakty.scss:./css/kontakty.css ./sass/nav.scss:./css/nav.css ./sass/slider.scss:./css/slider.css ./sass/main_section.scss:./css/main_section.css ./sass/products.scss:./css/products.css ./sass/about-us.scss:./css/about-us.css ./sass/discription.scss:./css/discription.css ./sass/hover.scss:./css/hover.css"
+		"sass": "sass --watch ./sass/main.scss:./css/style.css ./sass/kontakty.scss:./css/kontakty.css ./sass/nav.scss:./css/nav.css ./sass/slider.scss:./css/slider.css ./sass/main_section.scss:./css/main_section.css ./sass/products.scss:./css/products.css ./sass/about-us.scss:./css/about-us.css ./sass/discription.scss:./css/discription.css ./sass/hover.scss:./css/hover.css ./sass/gniazdka.scss:./css/gniazdka.css"
 	},
 	"repository": {
 		"type": "git",
