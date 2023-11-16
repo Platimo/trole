@@ -21,10 +21,17 @@ nav {
     height: -60px;
     line-height: -60px;
     background-color: #f5eeee;
+    text-align: center;
+}
+
+.wrapper {
+    margin: 0 auto;
+    width: 100%;
+    min-width: 1200px;
 }
 .burger-icon {
     display: block;
-    margin-right: auto;
+    margin-left: auto;
     padding: 0 30px;
     line-height: 60px;
     font-size: 30px;
@@ -80,7 +87,7 @@ nav {
     text-transform: uppercase;
     font-weight: bold;
     border: 0;
-    background-color: #f5eeee;
+    background-color: #ffffff;
 }
 .link-b {
     text-decoration: none;
