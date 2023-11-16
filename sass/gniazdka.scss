@@ -15,7 +15,18 @@
     justify-content: space-between;
     color: rgba(0, 0, 0, 0.692)
 }
-.slowa  {
+.main-gniazdka {
     position: relative;
+    font-weight: bold;
+    left: 210px;
 }
-
+.random-rec {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.rec-prod-img {
+    position: relative;
+    width: 70px;
+    height: 70px;
+}
