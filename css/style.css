@@ -423,6 +423,84 @@ nav {
   transform: translate(-17px, -98px);
 }
 
+.recommended_text {
+  text-align: center;
+}
+
+.bulb1 {
+  height: 300px;
+  width: 400px;
+  background-color: #ffffff;
+}
+
+.pic {
+  height: 180px;
+  width: 100px;
+  background-size: cover;
+  background-position: center;
+  margin-left: 65px;
+  background-image: url(../img/photos/img_06.jpg);
+}
+
+.product-name {
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 11px;
+}
+
+.product-disc {
+  text-align: center;
+  font-size: 9px;
+  color: #000000;
+  font-weight: bold;
+}
+
+.price-bf {
+  text-align: center;
+  font-size: 10px;
+  color: rgba(0, 0, 0, 0.5333333333);
+  text-decoration: line-through;
+}
+
+.price-after {
+  text-align: center;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.blub-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.zobacz-btn {
+  text-align: center;
+}
+
+.see-more-btn {
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+  background-color: tomato;
+  color: #ffffff;
+  padding: 10px;
+  border: none;
+  border-radius: 25px;
+}
+
+.cart {
+  display: none;
+  text-align: right;
+  transform: translate(-10px, -50px);
+}
+
+.many {
+  display: none;
+  transform: translate(-17px, -98px);
+}
+
 .about-us-2 {
   position: relative;
   flex-direction: row;
@@ -521,6 +599,115 @@ nav {
 .right {
   text-align: right;
   opacity: 0.5;
+}
+
+.btn-color:hover {
+  cursor: pointer;
+  background-color: rgb(255, 255, 255);
+  color: royalblue;
+  transition: 0.3s;
+}
+
+.btn-2:hover {
+  cursor: pointer;
+  background-color: rgb(255, 255, 255);
+  color: rgb(255, 0, 0);
+  transition: 0.3s;
+}
+
+.info:hover {
+  cursor: pointer;
+  background-color: black;
+  color: white;
+  transition: 0.5s;
+}
+
+.dilivery:hover {
+  cursor: pointer;
+  transform: scale(1.3);
+  transition: 0.3s;
+}
+
+.btn-see-more:hover {
+  cursor: pointer;
+  background-color: rgb(255, 38, 0);
+  border-color: rgb(255, 38, 0);
+  transition: 0.5s;
+}
+
+.img-1:hover {
+  transform: scale(1.2);
+  transition: 0.3s;
+}
+
+.img-2:hover {
+  transform: scale(1.2);
+  transition: 0.3s;
+}
+
+.img-3:hover {
+  transform: scale(1.2);
+  transition: 0.3s;
+}
+
+.lewo:hover {
+  cursor: pointer;
+  background-color: grey;
+  transition: 0.3s;
+}
+
+.prawo:hover {
+  cursor: pointer;
+  background-color: grey;
+  transition: 0.3s;
+}
+
+.see-more-btn:hover {
+  cursor: pointer;
+  background-color: #000000;
+  transition: 0.5s;
+  color: #ffffff;
+}
+
+.bulb1:hover .animation-up {
+  transition: 0.5s;
+  transform: translate(0px, -40px);
+}
+.bulb1:hover .cart {
+  display: block;
+}
+.bulb1:hover .many {
+  display: block;
+}
+
+.see-more-up:hover {
+  cursor: pointer;
+  background-color: black;
+  transition: 0.5s;
+}
+
+.see-more-up-s:hover {
+  cursor: pointer;
+  background-color: black;
+  transition: 0.5s;
+}
+
+.left1:hover {
+  transition: 0.3s;
+  background-color: rgba(255, 255, 255, 0.582);
+}
+
+.right1:hover {
+  transition: 0.3s;
+  background-color: rgba(255, 255, 255, 0.582);
+}
+
+.right-arrow:hover {
+  background-color: #b4adad;
+}
+
+.left-arrow:hover {
+  background-color: #b3b3b3;
 }
 
 /*# sourceMappingURL=style.css.map */
