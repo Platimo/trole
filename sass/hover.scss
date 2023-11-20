@@ -74,6 +74,18 @@
         display: block;
     }
 }
+.products-box:hover {
+    .animation-up {
+        transition: 0.5s;
+        transform: translate(0px,-40px);
+    }
+    .cart {
+        display: block;
+    }
+    .many {
+        display: block;
+    }
+}
 
 .see-more-up:hover {
     cursor: pointer;

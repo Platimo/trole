@@ -681,6 +681,17 @@ nav {
   display: block;
 }
 
+.products-box:hover .animation-up {
+  transition: 0.5s;
+  transform: translate(0px, -40px);
+}
+.products-box:hover .cart {
+  display: block;
+}
+.products-box:hover .many {
+  display: block;
+}
+
 .see-more-up:hover {
   cursor: pointer;
   background-color: black;
