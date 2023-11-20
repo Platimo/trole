@@ -554,11 +554,11 @@ nav {
 }
 
 .bg-grey {
+  position: relative;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  top: 2652px;
   left: 0px;
   width: 100% vh;
   height: 100% vh;
