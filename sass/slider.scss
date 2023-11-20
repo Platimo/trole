@@ -5,13 +5,16 @@
 }
 
 .left-1 {
-    left: 3px;
+    left: 0;
     display: flex;
     justify-content: center;
     align-items: center;
     position: absolute;
     top: 50%;
+    width: 25px;
+    height: 25px;    
     color: cyan;
+    background-color: white;
 }
 .right-1 {
     display: flex;
@@ -20,7 +23,10 @@
     position: absolute;
     top: 50%;
     right: 3px;
+    width: 25px;
+    height: 25px;
     color: cyan;
+    background-color: white;
 }
 .slajd {
     position: relative;
@@ -28,6 +34,8 @@
     justify-content: center;
     align-items: center;
     height: 400px;
+    width: 100%;
+    object-fit: cover;
    }
 .slide2 {
     position: relative;

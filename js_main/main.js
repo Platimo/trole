@@ -11,3 +11,4 @@ function showImg(e){
     }
     img[indexValue-1].style.display = "block";
 }
+
