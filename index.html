@@ -1,256 +1,282 @@
 <!DOCTYPE html>
 <html lang="pl">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>FirmaSZNIOL</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz@6..12&family=Raleway&display=swap" rel="stylesheet">
-<script src="https://kit.fontawesome.com/594cff08b7.js" crossorigin="anonymous"></script>
-<link rel="stylesheet" href="./css/style.css">
-    </head>
-    <body>
 
-        <hr style="width: 100%;">
-        <nav>
-            <div class="logo-up"></div>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FirmaSZNIOL</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz@6..12&family=Raleway&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/594cff08b7.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/slider.css">
+    <link rel="stylesheet" href="./css/nav.css">
+</head>
 
-                 <p class="nav-items"><i class="fa-solid fa-cart-shopping"></i><button class="btn-color">Mój koszyk</button></p>
-             
-                 <p class="nav-items"><i class="fa-regular fa-user"></i><button class="btn-color">Produkty</button></p>
+<body>
 
-                 <p class="nav-items"><i class="fa-regular fa-star"></i><button class="btn-color">ulubione</button></p>
+    <hr style="width: 100%;">
+    <div class="logo_container">
+        <div class="logo-up"></div>
+        <i id="hamburger" class="fa-solid fa-bars logo_hamburger"></i>
+    </div>
 
-                 <p class="nav-items"><i class="fa-solid fa-phone"></i><button class="btn-color"><a class="link-b" href="./kontakt.html">  Kontakt</button></a></p>
-            </div>
+    <nav class="navigation_top js__hamburger">
+
+
+        <p class="nav-items"><i class="fa-solid fa-cart-shopping"></i><button class="btn-color">Mój koszyk</button></p>
+
+        <p class="nav-items"><i class="fa-regular fa-user"></i><button class="btn-color">Produkty</button></p>
+
+        <p class="nav-items"><i class="fa-regular fa-star"></i><button class="btn-color">ulubione</button></p>
+
+        <p class="nav-items"><i class="fa-solid fa-phone"></i><button class="btn-color"><a class="link-b"
+                    href="./kontakt.html"> Kontakt</button></a></p>
+        </div>
     </nav>
-    
-<!-- druga nawigacja do produktów -->
-<hr style="width: 100%;">
-        <section class="function">
-            <div><button class="btn-2"><a class="btn-2 link-b" href="./gniazdka.html"> źródło światła</a></button></div>
-            <div><button class="btn-2"><a class="btn-2 link-b" href="./gniazdka.html">oświetlenie wewnętrzne</a></button></div>
-            <div><button class="btn-2"><a class="btn-2 link-b" href="./gniazdka.html">gniazdka, wyłączniki</a></button></div>
-            <div><button class="btn-2"><a class="btn-2 link-b" href="./gniazdka.html">automatyka, sterowanie</a></button></div>
-            <div><button class="btn-2"><a class="btn-2 link-b" href="./gniazdka.html">rozdzielnie i aparatura</a></button></div>
-            <div><button class="btn-2"><a class="btn-2 link-b" href="./gniazdka.html">materiały instalacyjne</a></button></div>
-            </section>
-            <hr style="width: 100%;">
-       
-            <section>
-                <div class="slajd-bg">
-                    <div class="sedan-mobile">
-                        
-                    </div>
-                    <div class="sedan"><img class="slajd" id="zdjecie" src="./img/photos/slide_01.jpg">
-                        <p class="nagl-s">Poznajcie SEDNA</p>
-                        <p class="nagl2-s">Schneider Electric</p>
-                        <p class="slide-dsc">Sedna to osprzęt elektrointalacyjny <br> o wyrazistym ksztaucie oraze <br> unikalnej formie.</p>
-                        <button class="see-more-up-s">zobacz więcej</button>
-                    </div>
-                    <div class="philips-mobile"></div>
-                    <div class="Philips"><img class="slajd" id="zdjecie" src="./img/photos/slide_02.png">
-                        <p class="nagl">Philips HUE</p>
-                        <p class="nagl2">Oświetl swój dom</p>
-                        <p class="slide-dsc">Wyobraź sobie, że jednym<br> dotknięciem wyłączasz<br> wszystkie światła.</p>
-                        <button class="see-more-up">zobacz więcej</button>
-                    </div>
-                    <div class="left-1" onclick="side_slide(-1)"><button class="left1"><i class="fa-solid fa-chevron-left"></i></button></div>
-                    <div class="right-1" onclick="side_slide(-1)"><button class="right1"><i class="fa-solid fa-chevron-right"></i></button></div>
-                </div>
-            </section>
-       
-            <hr style="width: 100%;">
-       
-        <main class="main-text">
-            
-            <div class="img-1">
-                <h2 class="one align">Pomoc eksperta</h2>
-                <p class="one align"><h3>Doradzamy</h3></p>
-                <button class="btn-see-more align">zobacz więcej</button>
+
+    <!-- druga nawigacja do produktów -->
+    <hr style="width: 100%;">
+    <section class="function navigation_main js__hamburger">
+        <div><button class="btn-2"><a class="btn-2 link-b" href="./gniazdka.html"> źródło światła</a></button></div>
+        <div><button class="btn-2"><a class="btn-2 link-b" href="./gniazdka.html">oświetlenie wewnętrzne</a></button>
+        </div>
+        <div><button class="btn-2"><a class="btn-2 link-b" href="./gniazdka.html">gniazdka, wyłączniki</a></button>
+        </div>
+        <div><button class="btn-2"><a class="btn-2 link-b" href="./gniazdka.html">automatyka, sterowanie</a></button>
+        </div>
+        <div><button class="btn-2"><a class="btn-2 link-b" href="./gniazdka.html">rozdzielnie i aparatura</a></button>
+        </div>
+        <div><button class="btn-2"><a class="btn-2 link-b" href="./gniazdka.html">materiały instalacyjne</a></button>
+        </div>
+    </section>
+    <hr style="width: 100%;">
+
+    <section>
+        <div class="slajd-bg">
+            <div class="sedan-mobile">
+
             </div>
-            <div class="img-2">
-                <h2 class="one align">Szukaj więcej</h2>
-                <p class="on aligne"><h3>Elhurt plus</h3></p>
-                <button class="btn-see-more align">zobacz więcej</button>
+            <div class="sedan"><img class="slajd" id="zdjecie" src="./img/photos/slide_01.jpg">
+                <p class="nagl-s">Poznajcie SEDNA</p>
+                <p class="nagl2-s">Schneider Electric</p>
+                <p class="slide-dsc">Sedna to osprzęt elektrointalacyjny <br> o wyrazistym ksztaucie oraze <br>
+                    unikalnej formie.</p>
+                <button class="see-more-up-s">zobacz więcej</button>
             </div>
-            <div class="img-3">
-                <h2 class="one align">Seria Unica</h2>
-                <p class="one align"><h3>Wyjątkowy wzór</h3></p>
-                <button class="btn-see-more align">zobacz więcej</button>
+            <div class="philips-mobile"></div>
+            <div class="Philips"><img class="slajd" id="zdjecie" src="./img/photos/slide_02.png">
+                <p class="nagl">Philips HUE</p>
+                <p class="nagl2">Oświetl swój dom</p>
+                <p class="slide-dsc">Wyobraź sobie, że jednym<br> dotknięciem wyłączasz<br> wszystkie światła.</p>
+                <button class="see-more-up">zobacz więcej</button>
             </div>
+            <div class="left-1" onclick="side_slide(-1)"><button class="left1"><i
+                        class="fa-solid fa-chevron-left"></i></button></div>
+            <div class="right-1" onclick="side_slide(-1)"><button class="right1"><i
+                        class="fa-solid fa-chevron-right"></i></button></div>
+        </div>
+    </section>
 
+    <hr style="width: 100%;">
 
+    <main class="main-text">
 
-            
-        </main>
-            <hr style="width: 100%;">
-            
-            <section class="products">
-                <h1 class="recommended_text">Polecane produkty</h1>
-                <div class="blub-box ">
-                    <div class="arrow-right"><button class="right-arrow"><i class="fa-solid fa-chevron-right"></i></button></div>
-                    <div class="arrow-left"><button class="left-arrow"><i class="fa-solid fa-chevron-left"></i></button></div>
-                   <div class="bulb1">
-                    <div class="pic"></div>
-                    <div class="animation-up">
-                        <p class="product-name">łącznik jednobiegunowy</p>
-                        <p class="product-disc">Kod produktu: CW1.01/11</p>
-                        <p class="price-bf">656.65 zł</p>
-                        <p class="price-after">442,85 zł</p>
-                    </div>
-                    <div class="cart"><i class="fa-solid fa-cart-shopping"></i></div>
-                    <div class="many">
-                        <input type="number" name="ilość">
-                    </div>
-                   </div>
-                   <div class="bulb1">
-                    <div class="pic"></div>
-                    <div class="animation-up">
-                    <p class="product-name">łącznik jednobiegunowy</p>
-                        <p class="product-disc">Kod produktu: CW1.01/11</p>
-                        <p class="price-bf">656.65 zł</p>
-                        <p class="price-after">442,85 zł</p>
-                        </div>
-                        <div class="cart"><i class="fa-solid fa-cart-shopping"></i></div>
-                        <div class="many">
-                            <input type="number" name="ilość">
-                        </div>
-                   </div>
-                   <div class="bulb1">
-                    <div class="pic"></div>
-                    <div class="animation-up">
-                    <p class="product-name">łącznik jednobiegunowy</p>
-                        <p class="product-disc">Kod produktu: CW1.01/11</p>
-                        <p class="price-bf">656.65 zł</p>
-                        <p class="price-after">442,85 zł</p>
-                        </div>
-                        <div class="cart"><i class="fa-solid fa-cart-shopping"></i></div>
-                        <div class="many">
-                            <input type="number" name="ilość">
-                        </div>
-                   </div>
-                   <div class="bulb1">
-                    <div class="pic"></div>
-                    <div class="animation-up">
-                    <p class="product-name">łącznik jednobiegunowy</p>
-                        <p class="product-disc">Kod produktu: CW1.01/11</p>
-                        <p class="price-bf">656.65 zł</p>
-                        <p class="price-after">442,85 zł</p>
-                        </div>
-                        <div class="cart"><i class="fa-solid fa-cart-shopping"></i></div>
-                        <div class="many">
-                            <input type="number" name="ilość">
-                        </div>
-                   </div>
-                   <div class="bulb1 animation-up">
-                    <div class="pic"></div>
-                    <div class="animation-up">
-                    <p class="product-name">łącznik jednobiegunowy</p>
-                        <p class="product-disc">Kod produktu: CW1.01/11</p>
-                        <p class="price-bf">656.65 zł</p>
-                        <p class="price-after">442,85 zł</p>
-                    </div>
-                    <div class="cart"><i class="fa-solid fa-cart-shopping"></i></div>
-                    <div class="many">
-                        <input type="number" name="ilość">
-                    </div>
-                   </div>
-                </div>  
-                 <div class="zobacz-btn"> 
-                    <button class="see-more-btn">zobacz wszystkie inspiracje</button>
-                </div>
-                </section>
-                        
-                    
-        
+        <div class="img-1">
+            <h2 class="one align">Pomoc eksperta</h2>
+            <p class="one align">
+            <h3>Doradzamy</h3>
+            </p>
+            <button class="btn-see-more align">zobacz więcej</button>
+        </div>
+        <div class="img-2">
+            <h2 class="one align">Szukaj więcej</h2>
+            <p class="on aligne">
+            <h3>Elhurt plus</h3>
+            </p>
+            <button class="btn-see-more align">zobacz więcej</button>
+        </div>
+        <div class="img-3">
+            <h2 class="one align">Seria Unica</h2>
+            <p class="one align">
+            <h3>Wyjątkowy wzór</h3>
+            </p>
+            <button class="btn-see-more align">zobacz więcej</button>
+        </div>
 
 
 
 
-            <hr style="width: 100%;">
-                <div class="about-us">
-                <H2>Sprawdź dlaczego my</H2>
-                <hr style="width: 90%;">
-                <div class="dis">Początki działalności t rok 2002r i otwarcie hurtowni oferująej podstawowe produkty do instalacji 
-                    <br>elektrycznych jak i również materiały używane w przemyśle wydobywczym. Firma dostarcza produkty trudno dostępne<br>
-                    do kopalń, zakładów przemysłowych.
-                </div>
-               <section class="about-us-2">
-               <i class="fa-solid fa-truck dilivery"><p>szybka wysyłka</p></i>
-               <i class="fa-solid fa-chalkboard dilivery"><p>Szeroki asortyment</p></i>
-               <i class="fa-regular fa-folder-open dilivery"><p>bezpieczne zwroty</p></i> 
-               <button class="info">informacje o firmie</button>
-            </section>    
+    </main>
+    <hr style="width: 100%;">
+
+    <section class="products">
+        <h1 class="recommended_text">Polecane produkty</h1>
+        <div class="blub-box ">
+            <div class="arrow-right"><button class="right-arrow"><i class="fa-solid fa-chevron-right"></i></button>
             </div>
-            <section class="info-all">
-                    <div class="bg-grey">
-                        
-                        <div class="informacje">informacje
-                            <div class="line"></div>
-                            <ul>
-                                <li class="items"><a class="link-1" href="#">Informacje o sklepie</a></li>
-                                <li class="items"><a class="link-1" href="#">Porady</a></li>
-                                <li class="items"><a class="link-1" href="#">Blog</a></li>
-                                <li class="items"><a class="link-1" href="#">Galeria inspiracji</a></li>
-                                <li class="items"><a class="link-1" href="#">Kontakt</a></li>
-                                <li class="items"><a class="link-1" href="#">Informacje o sklepie</a></li>
-                            </ul>
-                        </div>
-                    <div class="informacje">informacje
-                        <div class="line"></div>
-                        <ul>
-                            <li class="items"><a class="link-1" href="#">Czas realizacji</a></li>
-                            <li class="items"><a class="link-1" href="#">Koszty przesyłki</a></li>
-                            <li class="items"><a class="link-1" href="#">Zamów próbkę</a></li>
-                            <li class="items"><a class="link-1" href="#">Szycie na wymiar</a></li>
-                            <li class="items"><a class="link-1" href="#">Czas realizacji</a></li>
-                            <li class="items"><a class="link-1" href="#">Koszty przesyłki</a></li>
-                        </ul>
-                    </div>
-                    <div class="informacje">moje konto
-                        <div class="line"></div>
-                        <ul>
-                            <li class="items"><a class="link-1" href="#">Logowanie</a></li>
-                            <li class="items"><a class="link-1" href="#">Rejestracja</a></li>
-                            <li class="items"><a class="link-1" href="#">Zamówienia</a></li>
-                            <li class="items"><a class="link-1" href="#">Ustawienia konta</a></li>
-                            <li class="items"><a class="link-1" href="#">Zmiana hasła</a></li>
-                            <li class="items"><a class="link-1" href="#">Schowek</a></li>
-                        </ul>
-                    </div>
-                    <div class="informacje">informacje
-                        <div class="line"></div>
-                        <ul>
-                            <li class="items"><a class="link-1" href="#">Informacje o sklepie</a></li>
-                            <li class="items"><a class="link-1" href="#">Porady</a></li>
-                            <li class="items"><a class="link-1" href="#">Blog</a></li>
-                            <li class="items"><a class="link-1" href="#">Galeria inspiracji</a></li>
-                            <li class="items"><a class="link-1" href="#">Kontakt</a></li>
-                            <li class="items"><a class="link-1" href="#">Informacje o sklepie</a></li>
-                        </ul>
-                    </div>
+            <div class="arrow-left"><button class="left-arrow"><i class="fa-solid fa-chevron-left"></i></button></div>
+            <div class="bulb1">
+                <div class="pic"></div>
+                <div class="animation-up">
+                    <p class="product-name">łącznik jednobiegunowy</p>
+                    <p class="product-disc">Kod produktu: CW1.01/11</p>
+                    <p class="price-bf">656.65 zł</p>
+                    <p class="price-after">442,85 zł</p>
                 </div>
-            </section>
-            <footer>
-                <p class="left">Copyriht 2022. Wszystkie prawa zastrzeżone</p>
-                <p class="right">Agencja internetowa [ti] Powered by 2ClickSop...cover by Nikodem, Szymon, Olaf</p>
-            </footer>
+                <div class="cart"><i class="fa-solid fa-cart-shopping"></i></div>
+                <div class="many">
+                    <input type="number" name="ilość">
+                </div>
+            </div>
+            <div class="bulb1">
+                <div class="pic"></div>
+                <div class="animation-up">
+                    <p class="product-name">łącznik jednobiegunowy</p>
+                    <p class="product-disc">Kod produktu: CW1.01/11</p>
+                    <p class="price-bf">656.65 zł</p>
+                    <p class="price-after">442,85 zł</p>
+                </div>
+                <div class="cart"><i class="fa-solid fa-cart-shopping"></i></div>
+                <div class="many">
+                    <input type="number" name="ilość">
+                </div>
+            </div>
+            <div class="bulb1">
+                <div class="pic"></div>
+                <div class="animation-up">
+                    <p class="product-name">łącznik jednobiegunowy</p>
+                    <p class="product-disc">Kod produktu: CW1.01/11</p>
+                    <p class="price-bf">656.65 zł</p>
+                    <p class="price-after">442,85 zł</p>
+                </div>
+                <div class="cart"><i class="fa-solid fa-cart-shopping"></i></div>
+                <div class="many">
+                    <input type="number" name="ilość">
+                </div>
+            </div>
+            <div class="bulb1">
+                <div class="pic"></div>
+                <div class="animation-up">
+                    <p class="product-name">łącznik jednobiegunowy</p>
+                    <p class="product-disc">Kod produktu: CW1.01/11</p>
+                    <p class="price-bf">656.65 zł</p>
+                    <p class="price-after">442,85 zł</p>
+                </div>
+                <div class="cart"><i class="fa-solid fa-cart-shopping"></i></div>
+                <div class="many">
+                    <input type="number" name="ilość">
+                </div>
+            </div>
+            <div class="bulb1 animation-up">
+                <div class="pic"></div>
+                <div class="animation-up">
+                    <p class="product-name">łącznik jednobiegunowy</p>
+                    <p class="product-disc">Kod produktu: CW1.01/11</p>
+                    <p class="price-bf">656.65 zł</p>
+                    <p class="price-after">442,85 zł</p>
+                </div>
+                <div class="cart"><i class="fa-solid fa-cart-shopping"></i></div>
+                <div class="many">
+                    <input type="number" name="ilość">
+                </div>
+            </div>
+        </div>
+        <div class="zobacz-btn">
+            <button class="see-more-btn">zobacz wszystkie inspiracje</button>
+        </div>
+    </section>
 
-            
-
-            
-        </body>
-        <script src="./js_main/main.js"></script>
-    </html>
-
-            
-               
-
-                
-        
-        
 
 
 
+
+
+
+    <hr style="width: 100%;">
+    <div class="about-us">
+        <H2>Sprawdź dlaczego my</H2>
+        <hr style="width: 90%;">
+        <div class="dis">Początki działalności t rok 2002r i otwarcie hurtowni oferująej podstawowe produkty do
+            instalacji
+            <br>elektrycznych jak i również materiały używane w przemyśle wydobywczym. Firma dostarcza produkty trudno
+            dostępne<br>
+            do kopalń, zakładów przemysłowych.
+        </div>
+        <section class="about-us-2">
+            <i class="fa-solid fa-truck dilivery">
+                <p>szybka wysyłka</p>
+            </i>
+            <i class="fa-solid fa-chalkboard dilivery">
+                <p>Szeroki asortyment</p>
+            </i>
+            <i class="fa-regular fa-folder-open dilivery">
+                <p>bezpieczne zwroty</p>
+            </i>
+            <button class="info">informacje o firmie</button>
+        </section>
+    </div>
+    <section class="info-all">
+        <div class="bg-grey">
+
+            <div class="informacje">informacje
+                <div class="line"></div>
+                <ul>
+                    <li class="items"><a class="link-1" href="#">Informacje o sklepie</a></li>
+                    <li class="items"><a class="link-1" href="#">Porady</a></li>
+                    <li class="items"><a class="link-1" href="#">Blog</a></li>
+                    <li class="items"><a class="link-1" href="#">Galeria inspiracji</a></li>
+                    <li class="items"><a class="link-1" href="#">Kontakt</a></li>
+                    <li class="items"><a class="link-1" href="#">Informacje o sklepie</a></li>
+                </ul>
+            </div>
+            <div class="informacje">informacje
+                <div class="line"></div>
+                <ul>
+                    <li class="items"><a class="link-1" href="#">Czas realizacji</a></li>
+                    <li class="items"><a class="link-1" href="#">Koszty przesyłki</a></li>
+                    <li class="items"><a class="link-1" href="#">Zamów próbkę</a></li>
+                    <li class="items"><a class="link-1" href="#">Szycie na wymiar</a></li>
+                    <li class="items"><a class="link-1" href="#">Czas realizacji</a></li>
+                    <li class="items"><a class="link-1" href="#">Koszty przesyłki</a></li>
+                </ul>
+            </div>
+            <div class="informacje">moje konto
+                <div class="line"></div>
+                <ul>
+                    <li class="items"><a class="link-1" href="#">Logowanie</a></li>
+                    <li class="items"><a class="link-1" href="#">Rejestracja</a></li>
+                    <li class="items"><a class="link-1" href="#">Zamówienia</a></li>
+                    <li class="items"><a class="link-1" href="#">Ustawienia konta</a></li>
+                    <li class="items"><a class="link-1" href="#">Zmiana hasła</a></li>
+                    <li class="items"><a class="link-1" href="#">Schowek</a></li>
+                </ul>
+            </div>
+            <div class="informacje">informacje
+                <div class="line"></div>
+                <ul>
+                    <li class="items"><a class="link-1" href="#">Informacje o sklepie</a></li>
+                    <li class="items"><a class="link-1" href="#">Porady</a></li>
+                    <li class="items"><a class="link-1" href="#">Blog</a></li>
+                    <li class="items"><a class="link-1" href="#">Galeria inspiracji</a></li>
+                    <li class="items"><a class="link-1" href="#">Kontakt</a></li>
+                    <li class="items"><a class="link-1" href="#">Informacje o sklepie</a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p class="left">Copyriht 2022. Wszystkie prawa zastrzeżone</p>
+        <p class="right">Agencja internetowa [ti] Powered by 2ClickSop...cover by Nikodem, Szymon, Olaf</p>
+    </footer>
+
+
+
+
+</body>
+<script src="./js_main/main.js"></script>
+<script src="./js_main/hamburger.js"></script>
+
+</html>

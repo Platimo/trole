@@ -1,74 +1,71 @@
 * {
-    box-sizing: border-box;
-    margin: 10px;
-    padding: 0;
+	box-sizing: border-box;
+	margin: 10px;
+	padding: 0;
 }
 
 html {
-    scroll-behavior: smooth;
-    font-size: 10px;
-    overflow-x: hidden;
+	scroll-behavior: smooth;
+	font-size: 10px;
+	overflow-x: hidden;
 }
 
 body {
-    font-family: 'Raleway', sans-serif;
-    background-color: #f5eeee;
-    text-decoration: none;
+	font-family: 'Raleway', sans-serif;
+	background-color: #f5eeee;
+	text-decoration: none;
 }
-
 
 nav {
-    position: relative;
-    top: 0;
-    height: -60px;
-    line-height: -60px;
-    background-color: #f5eeee;
-    text-align: center;
+	position: relative;
+	top: 0;
+	height: -60px;
+	line-height: -60px;
+	background-color: #f5eeee;
+	text-align: center;
 }
-
 
 .logo-up {
-    position: absolute;
-    width: 250px;
-    height: 59px;
-    background-image: url(../img/photos/logo.png);
+	position: relative;
+	width: 250px;
+	height: 59px;
+	background-image: url(../img/photos/logo.png);
 }
 
-// navigacja navi   
+// navigacja navi
 .nav-items {
-    position: relative;
-    color: #000000;
-    text-align: right;
-    flex-direction: row-reverse;
-    float: right;
-    text-transform: uppercase;
-    margin: 3vh;
-    font-weight: bold;
+	position: relative;
+	color: #000000;
+	text-align: right;
+	flex-direction: row-reverse;
+	float: right;
+	text-transform: uppercase;
+	margin: 3vh;
+	font-weight: bold;
 }
 /* nawigacja */
-.btn-color{
-    border: 0;
-    background-color: #f5eeee;
+.btn-color {
+	border: 0;
+	background-color: #f5eeee;
 }
-// sekcja 2 zakłądek 
+// sekcja 2 zakłądek
 .function {
-    position: sticky;
-    display: flex;
-    text-align: center;
-    text-transform: uppercase;
-    font-weight: bold;
-    }
+	position: sticky;
+	display: flex;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bold;
+}
 .btn-2 {
-    position: sticky;
-    display: flex;
-    text-align: center;
-    text-transform: uppercase;
-    font-weight: bold;
-    border: 0;
-    background-color: #ffffff;
+	position: sticky;
+	display: flex;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bold;
+	border: 0;
+	background-color: #ffffff;
 }
 .link-b {
-    text-decoration: none;
-    color: black;
+	text-decoration: none;
+	color: black;
 }
-
