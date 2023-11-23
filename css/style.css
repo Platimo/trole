@@ -24,7 +24,27 @@ nav {
   background-color: #f5eeee;
   text-align: center;
 }
+.line3{
+  position: relative;
+  height: 1px;
+  width: 100%;
+}
+.line3::before,
+.line3::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: black;
 
+}
+.line3::before{
+  left: 0;
+}
+.line3::after{
+  right: 0;
+}
 .logo-up {
   position: absolute;
   width: 250px;
